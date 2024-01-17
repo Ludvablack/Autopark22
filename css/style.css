@@ -1,0 +1,94 @@
+
+
+
+
+
+.background{
+    
+    background-size:cover;
+    background:no-repeat;
+    background-attachment:fixed;
+}
+
+header{
+    background-color:blue;
+    padding: 10px;
+    color:white;
+}
+
+*{transition:all 0.3 ease-in-out;}
+.container{
+    clear:both;
+    overflow:auto;
+}
+
+body{background-color:rgb(43, 226, 156);
+margin-bottom: 0px;
+padding: 0px;
+}
+nav{float:left;
+padding-right: 10 px;
+}
+
+ul li{
+    display: inline-block; padding:10px;
+    font-size:30px; font-family:raleway;
+    color:aquamarine;
+}
+ul li:hover{
+    color:rgb(255, 255, 255);
+}
+.modul {
+    display:grid;
+    color:white;
+    
+}
+.modul1{
+    margin-top: 20px;
+    text-align: center ;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+th, td {
+  
+    border: 4px solid rgb(231, 231, 231);
+  
+   
+    text-align: center;
+  
+  }
+
+
+
+.loga{
+    display:grid;
+}
+.loga1:hover,.loga2:hover,.loga3:hover{
+    opacity:0.3;
+}
+.info{
+    margin-top: 80px;
+    text-align: center;
+}
+.info1{
+    text-align: center;
+    color: red;
+    margin-top: 50px; 
+}
+@media (min-width: 1200px){
+    .loga { grid-template-columns: repeat(1,1fr);}
+}
+@media (max-width:800px){
+    .modul2{
+        display:grid;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    }
+@media (min-width: 1200px) {
+    .modul {grid-template-columns: repeat (1,1fr);}
+}
